@@ -226,56 +226,6 @@
     color: rgba(255, 255, 255, 0.97);
   }
 
-
-/* The switch - the box around the slider */
-/* .switch {
-  font-size: 17px;
-  position: relative;
-  display: inline-block;
-  width: 3.5em;
-  height: 2em;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  --background: #28096b;
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--background);
-  transition: .5s;
-  border-radius: 30px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 1.4em;
-  width: 1.4em;
-  border-radius: 50%;
-  left: 10%;
-  bottom: 15%;
-  box-shadow: inset 8px -4px 0px 0px #fff000;
-  background: var(--background);
-  transition: .5s;
-}
-
-input:checked + .slider {
-  background-color: #522ba7;
-}
-
-input:checked + .slider:before {
-  transform: translateX(100%);
-  box-shadow: inset 15px -4px 0px 15px #fff000;
-} */
   .header {
     position: relative;
     text-align: center;
@@ -614,10 +564,10 @@ input:checked + .slider:before {
   }
 
   .about .about-title {
-    font-size: 40px;
+    font-size: 30px;
   }
 
-  .about .about-title h1 {
+  .about .about-title h2 {
     margin: 100px;
     text-transform: uppercase;
   }
@@ -660,8 +610,8 @@ input:checked + .slider:before {
       align-items: center;
     }
 
-    .about .about-title h1 {
-      font-size: 40px;
+    .about .about-title h2 {
+      font-size: 30px;
       margin: 0;
       padding-top: 40px;
       text-transform: uppercase;
@@ -703,11 +653,11 @@ input:checked + .slider:before {
 
   .skill-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
   }
 
-  .skill-title h1 {
-    margin: 50px;
+  .skill-title h2 {
+    margin: 30px;
     text-transform: uppercase;
   }
 
@@ -943,8 +893,8 @@ input:checked + .slider:before {
 
 
   @media (max-width: 900px) {
-    .skill-title h1 {
-      font-size: 40px;
+    .skill-title h2 {
+      font-size: 30px;
     }
 
     .skill {
@@ -973,118 +923,7 @@ input:checked + .slider:before {
 
   }
 
-  /*------------------------ Service section----------------------- */
-  #Service {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 90vh;
-    background-color: #661144;
-  }
-
-  .service-title {
-    text-align: center;
-    font-size: 40px;
-    padding: 40px;
-    margin-top: -100px;
-    text-transform: uppercase;
-
-  }
-
-  .service-title h1 {
-    color: white;
-
-  }
-
-  .services {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .scard {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 330px;
-    width: 250px;
-    background: rgb(240, 234, 216);
-    position: relative;
-    box-shadow: rgb(5 78 151 / 46%) 5px 5px 20px;
-    text-align: center;
-    border-radius: 10px;
-    transition: all 0.3s ease-in 0s;
-    margin: 45px;
-  }
-
-  .scard p {
-    transition: all 0.3s ease-in;
-    font-size: 20px;
-  }
-
-  .scard:hover {
-    cursor: pointer;
-    box-shadow: none;
-  }
-
-  .scard:hover p {
-    transform: scale(1.4);
-    color: #f8f9fa;
-  }
-
-  .scard::before {
-    content: '';
-    width: 100%;
-    height: 0;
-    background: #3a9cf1;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-radius: 10px;
-    transition: 0.3s all ease-in-out;
-  }
-
-  .scard:hover::before {
-    height: 100%;
-
-  }
-
-  @media (max-width: 900px) {
-    #Service {
-      height: 50vh;
-    }
-
-    .service-title h1 {
-      font-size: 40px;
-      margin-bottom: 40px;
-    }
-
-    .services {
-      flex-direction: row;
-    }
-
-    .scard {
-      width: 120px;
-      height: 160px;
-      margin: 5px;
-
-    }
-
-    .scard p {
-      font-size: 15px;
-    }
-
-
-    .scard:hover p {
-      transform: scale(1.2);
-      color: #f8f9fa;
-    }
-
-  }
-
+  
   /*------------------------ Project Section------------------------ */
   #Project {
     display: flex;
@@ -1096,7 +935,7 @@ input:checked + .slider:before {
 
   .project-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     padding: 40px;
   }
@@ -1223,8 +1062,8 @@ input:checked + .slider:before {
       height: 100%;
     }
 
-    .project-title h1 {
-      font-size: 40px;
+    .project-title h2 {
+      font-size: 30px;
     }
 
     .project-content {

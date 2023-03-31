@@ -55,18 +55,6 @@ menu_ele.forEach(menu__item => {
     })
 })
 
-// let progessbar = document.querySelectorAll(".progress-value")
-// let progessPr = document.querySelectorAll(".pr").value;
-
-// console.log(progessPr)
-
-
-// document.querySelector('#contact-form').addEventListener('submit', (e) => {
-//   e.preventDefault();
-//   e.target.elements.name.value = '';
-//   e.target.elements.email.value = '';
-//   e.target.elements.message.value = '';
-// });
 let education_button = document.querySelector(
     '.qualification_education-button'
   );
