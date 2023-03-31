@@ -77,7 +77,7 @@
   }
 
   .logo a {
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.97);
@@ -302,6 +302,7 @@
 
 
   .btn {
+    margin-right: 30px;
     background: linear-gradient(-45deg, #1565cd, #740850, #9b13c1, #3a9cf1);
     background-size: 800% 400%;
     padding: 9px 20px;
@@ -564,6 +565,7 @@
   }
 
   .about .about-title {
+    margin-top: 30px;
     font-size: 30px;
   }
 
@@ -640,289 +642,6 @@
   }
 
 
-  /*------------------------Skill Section------------------------ */
-
-  .skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-
-  }
-
-  .skill-title {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .skill-title h2 {
-    margin: 30px;
-    text-transform: uppercase;
-  }
-
-  .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 50px;
-
-  }
-
-  .row1,
-  .row2 {
-    width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .col {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 5px 0 5px;
-  }
-
-  .col .pr {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .progress {
-    background: rgba(203, 203, 203, 0.641);
-    justify-content: flex-start;
-    border-radius: 100px;
-    align-items: center;
-    position: relative;
-    padding: 0 2px;
-    display: flex;
-    height: 20px;
-    width: 100%;
-    margin: 2px 100px 2px 0px;
-    box-shadow: 0 10px 40px -10px rgb(78 78 78);
-
-  }
-
-  .progress-value {
-
-    position: absolute;
-    border-radius: 100px;
-    background: #86185a;
-    height: 10px;
-  }
-
-  .html {
-    width: 95%;
-    animation: load1 3s normal forwards;
-  }
-
-  .css {
-    width: 80%;
-    animation: load2 3s normal forwards;
-  }
-
-  .js {
-    width: 65%;
-    animation: load3 3s normal forwards;
-  }
-
-  .bt {
-    width: 80%;
-    animation: load4 3s normal forwards;
-  }
-
-  .tw {
-    width: 80%;
-    animation: load5 3s normal forwards;
-  }
-
-  .rt {
-    width: 50%;
-    animation: load6 3s normal forwards;
-  }
-
-  .gt {
-    width: 90%;
-    animation: load7 3s normal forwards;
-  }
-
-  .java {
-    width: 70%;
-    animation: load8 3s normal forwards;
-  }
-
-  .cpp {
-    width: 70%;
-    animation: load9 3s normal forwards;
-  }
-
-  .py {
-    width: 50%;
-    animation: load10 3s normal forwards;
-  }
-
-  .db {
-    width: 75%;
-    animation: load11 3s normal forwards;
-  }
-
-  .dsa {
-    width: 55%;
-    animation: load12 3s normal forwards;
-  }
-
-  @keyframes load1 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 95%;
-    }
-  }
-
-  @keyframes load2 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 80%;
-    }
-  }
-
-  @keyframes load3 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 65%;
-    }
-  }
-
-  @keyframes load4 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 80%;
-    }
-  }
-
-  @keyframes load5 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 80%;
-    }
-  }
-
-  @keyframes load6 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 50%;
-    }
-  }
-
-  @keyframes load7 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 90%;
-    }
-  }
-
-  @keyframes load8 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 70%;
-    }
-  }
-
-  @keyframes load9 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 70%;
-    }
-  }
-
-  @keyframes load10 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 50%;
-    }
-  }
-
-  @keyframes load11 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 75%;
-    }
-  }
-
-  @keyframes load12 {
-    0% {
-      width: 0;
-    }
-
-    100% {
-      width: 55%;
-    }
-  }
-
-
-  @media (max-width: 900px) {
-    .skill-title h2 {
-      font-size: 30px;
-    }
-
-    .skill {
-      height: 100%;
-    }
-
-    .skills {
-      display: flex;
-      flex-direction: column;
-      margin: 40px;
-    }
-
-    .row1,
-    .row2 {
-      margin: 0;
-    }
-
-    .col .pr {
-      font-size: 20px;
-      font-weight: 500;
-    }
-
-    .progress {
-      width: 100%;
-    }
-
-  }
-
   
   /*------------------------ Project Section------------------------ */
   #Project {
@@ -938,6 +657,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 40px;
+    margin-top: 50px;
   }
 
   .project-content {
