@@ -452,7 +452,7 @@
           <p class="text-body">Web-App that allows users to log in, add/remove cities to monitor weather conditions and view historical trends.</p>
           <a href="https://github.com/Nobita006/weather_monitoring_app" target="#"><button
               class="card-button">Code</button></a>
-          <a href="https://youtu.be/YNOHufcG_z4" target="#"><button class="card-button">Live View</button></a>
+          <a href="https://youtu.be/UVlfjzt4nZ4" target="#"><button class="card-button">Live View</button></a>
         </div>
       </div>
       <div class="card">
@@ -462,7 +462,7 @@
           <p class="text-body">Playing custom video on each thumbnail and profile pic on Youtube</p>
           <a href="https://github.com/Nobita006/Own_video_on_youtube" target="#"><button
               class="card-button">Code</button></a>
-          <a href="https://youtu.be/UVlfjzt4nZ4?si=BT9Qk5EctEMaKlnL" target="#"><button class="card-button">Live View</button></a>
+          <a href="https://youtu.be/YNOHufcG_z4" target="#"><button class="card-button">Live View</button></a>
         </div>
       </div>
       <div class="card">
@@ -627,29 +627,6 @@
   </section>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="script.js"></script>
-
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxA9BTmqLVzaAFmBBUW8qOkLGez5TcLVJs0-Z7x8hlthtR5fOVobE6ZE4rpLE8xmzJndQ/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          msg.innerHTML = "Message sent succesfully!!"
-          setTimeout(function () {
-            msg.innerHTML = ""
-          }, 5000)
-          form.reset()
-        })
-        .catch(error => {
-        console.error('Error!', error.message)
-        msg.innerHTML = "An error occurred. Please try again later."
-        })
-        
-    })
-  </script>
 
 </body>
 
