@@ -599,49 +599,60 @@
     font-size: 25px;
   }
 
+  @media (max-width: 900px) {
+    .about .about-content {
+      margin: 20px;  /* Adjust margin to ensure proper spacing */
+      flex-direction: column;  /* Change to column layout */
+      align-items: center;  /* Center align the items */
+    }
+  
+    .des {
+      width: 100%;  /* Set the width to 100% to fit the container */
+      font-size: 18px;  /* Adjust font size if needed */
+      margin-top: 20px;
+    }
+  }
 
   @media (max-width: 900px) {
     .about {
       height: 100vh;
       margin: 0;
     }
-
-
-    .about-content {
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-    }
-
+  
     .about .about-title h2 {
       font-size: 30px;
       margin: 0;
       padding-top: 40px;
       text-transform: uppercase;
     }
-
+  
+    .about .about-content {
+      margin: 20px;  /* Adjust margin to ensure proper spacing */
+      justify-content: center;
+      flex-direction: column;  /* Change to column layout */
+      align-items: center;  /* Center align the items */
+    }
+  
     .s1 {
       margin: 0px;
     }
-
+  
     .s1 h3 {
       font-size: 19px;
       font-weight: 400;
       margin-right: 0;
     }
-
+  
     .s1 h3 span {
       font-weight: 600;
     }
-
+  
     .des {
-      width: 300px;
-      font-size: 20px;
+      width: 100%;  /* Set the width to 100% to fit the container */
+      font-size: 18px;  /* Adjust font size if needed */
       margin-top: 20px;
     }
-
   }
-
 
   
   /*------------------------ Project Section------------------------ */
