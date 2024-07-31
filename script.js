@@ -37,7 +37,7 @@ observer.observe(homesection);
 
 
 let typed = new Typed(".auto-type",{
-    strings:["I'm a 3rd Year BE IT student","I'm a Freelancer","I'm a Software Developer","I'm a Designer"],
+    strings:["I'm a Final Year BE IT student","I'm a Freelancer","I'm a Software Engineer","I'm a Designer"],
     typeSpeed:30,
     delaySpeed : 50,
     backSpeed:30,
