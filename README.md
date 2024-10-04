@@ -6,4 +6,4 @@ Live link - https://nobita006.github.io/Sayan_Portfolio/
 
 SCREENSHOT
 
-![image](https://user-images.githubusercontent.com/110232335/229157813-ebde1359-9103-45e9-81e8-6c51e99ca365.png)
+![image](https://github.com/user-attachments/assets/c7b9f2c4-2d34-4f6c-b97b-90f7f103ea23)
